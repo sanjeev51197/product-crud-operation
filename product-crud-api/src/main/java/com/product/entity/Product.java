@@ -18,7 +18,8 @@ public class Product {
         private Date expiryDate;
         private boolean isAvailable;
         private String colour;
-	
+	private String productCode;
+
 	public long getPid() {
 		return pid;
 	}
