@@ -16,7 +16,7 @@ public class Product {
 	private String brand;
 	private double price;
         private Date expiryDate;
-        private String storeName;
+        private boolean isAvailable;
 	
 	public long getPid() {
 		return pid;
