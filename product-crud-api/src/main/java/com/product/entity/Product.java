@@ -17,6 +17,7 @@ public class Product {
 	private double price;
         private Date expiryDate;
         private boolean isAvailable;
+        private String colour;
 	
 	public long getPid() {
 		return pid;
