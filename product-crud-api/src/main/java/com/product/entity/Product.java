@@ -15,6 +15,7 @@ public class Product {
 	private String name;
 	private String brand;
 	private double price;
+	private String manufacturingDate;
 	
 	public long getPid() {
 		return pid;
